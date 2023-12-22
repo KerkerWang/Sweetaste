@@ -129,46 +129,82 @@
 .choose {
   padding: 0;
   @media (min-width: 992px) {
-    height: 26.25rem;
+    height: 28.75rem;
     position: relative;
     justify-content: space-between;
   }
-  .backGround {
-    width: 100%;
-    height: 26.25rem;
-    z-index: -1;
-    top: 20px;
+}
+.backGround {
+  width: 100%;
+  height: 26.25rem;
+  z-index: -1;
+  top: 20px;
+}
+.slogan-sm {
+  width: 100%;
+  padding: 1.875rem 5.625rem;
+}
+.dessert {
+  height: 15.625rem;
+
+  background-position: center;
+  background-size: cover;
+  @media (min-width: 992px) {
+    width: 28.75rem;
+    height: 28.75rem;
+    margin-right: 3.4375rem;
+    margin-left: 2.625rem;
   }
-  .slogan-sm {
-    width: 100%;
-    padding: 1.875rem 5.625rem;
+}
+.dessert1 {
+  background-image: url(../images/p-11.avif);
+}
+.poem {
+  padding: 1.875rem;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 0;
+  @media (min-width: 992px) {
+    writing-mode: vertical-rl;
+    margin: 4.375rem 0;
+    margin-right: 5rem;
+    padding: 0;
   }
-  .dessert {
-    height: 15.625rem;
-    background-image: url(../images/p-11.avif);
-    background-position: center;
-    background-size: cover;
-    @media (min-width: 992px) {
-      width: 28.75rem;
-      height: 28.75rem;
-      margin-right: 3.4375rem;
-      margin-left: 2.625rem;
-    }
+}
+.slogan-lg {
+  height: 19.196875rem;
+  margin-right: 2.625rem;
+}
+
+//must
+.must {
+  padding: 0;
+  margin-top: 3.75rem;
+  @media (min-width: 992px) {
+    height: 28.75rem;
+    position: relative;
+    justify-content: space-between;
   }
-  .poem {
-    padding: 1.875rem;
-    line-height: 2;
-    font-weight: 300;
-    font-size: 1rem;
-    @media (min-width: 992px) {
-      writing-mode: vertical-rl;
-      margin: 4.375rem 0;
-      margin-right: 5rem;
-      padding: 0;
-    }
+}
+.dessert2 {
+  background-image: url(../images/p-12.avif);
+  @media (min-width: 992px) {
+    margin: 0 2.625rem;
   }
-  .slogan-lg {
-    height: 19.196875rem;
-    margin-right: 2.625rem;
+}
+.slogan-lg2 {
+  @media (min-width: 992px) {
+    margin-right: 0;
+    margin-left: 5rem;
+  }
+}
+
+.poem2 {
+  @media (min-width: 992px) {
+    margin-top: 4.0625rem;
+    margin-bottom: 4.6875rem;
+    margin-right: 0;
+    margin-left: 3.46875rem;
   }
 }
