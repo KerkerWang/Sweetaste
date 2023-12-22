@@ -10269,10 +10269,10 @@ textarea.form-control-lg {
 
 .must {
   padding: 0;
-  margin-top: 3.75rem;
 }
 @media (min-width: 992px) {
   .must {
+    margin-top: 3.75rem;
     height: 28.75rem;
     position: relative;
     justify-content: space-between;
@@ -10301,5 +10301,16 @@ textarea.form-control-lg {
     margin-bottom: 4.6875rem;
     margin-right: 0;
     margin-left: 3.46875rem;
+  }
+}
+
+.noReason {
+  padding: 1.875rem 4.6875rem;
+}
+@media (min-width: 992px) {
+  .noReason {
+    padding: 5rem 0;
+    padding-right: 28.25rem;
+    padding-left: 30.1875rem;
   }
 }/*# sourceMappingURL=all.css.map */
