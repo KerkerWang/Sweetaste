@@ -219,3 +219,91 @@
     padding-left: 30.1875rem;
   }
 }
+
+//todayDessert
+.todayDessertContainer {
+  padding: 0 1.875rem;
+  @media (min-width: 992px) {
+    padding: 0 0.625rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+.todayDessert {
+  border-color: #eaf0ed;
+  height: 27.25rem;
+  min-width: 19.6875rem;
+  margin-bottom: 1.875rem;
+  @media (min-width: 992px) {
+    min-width: 18.75rem;
+    margin-bottom: 0;
+  }
+}
+
+.todayDessertImg {
+  // width: 19.6875rem;
+  width: 100%;
+  height: 19.6875rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.todayDessertImg1 {
+  background-image: url(../images/p-2.png);
+}
+
+.todayDessertImg2 {
+  background-image: url(../images/p-5.png);
+}
+
+.todayDessertImg3 {
+  background-image: url(../images/p-13.avif);
+}
+
+.todayDessertContent {
+  margin: 0;
+  height: 3.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.todayDessertTitle {
+  // padding: 0.875rem 2.375rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2.8;
+  border-color: #eaf0ed;
+  @media (min-width: 992px) {
+    // padding-left: 2.0625rem;
+    // // padding-right: 2.0625rem;
+    // padding: 0;
+  }
+}
+
+.todayDessertPrice {
+  // padding: 0.875rem 0;
+  // padding-right: 1.5875rem;
+  // padding-left: 1.621875rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  @media (min-width: 992px) {
+    // padding-right: 1.25rem;
+    // padding-left: 1.5625rem;
+    padding: 0;
+  }
+}
+
+.addToCart {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.375;
+  padding: 1rem 0;
+  height: 4.0625rem;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    // padding: 1rem 5.625rem;
+  }
+}
