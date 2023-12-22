@@ -58,7 +58,6 @@
 }
 
 .topLinkLeft {
-  //   padding: 3.125rem calc((100% - 24px) / 2);
   width: 33.33%;
   background-image: url(../images/p-8.avif);
   background-position: center;
@@ -67,14 +66,8 @@
   @media (min-width: 768px) {
     height: 256px;
   }
-  //   @media (min-width: 992px) {
-  //     position: absolute;
-  //     z-index: 1;
-  //     top: -40%;
-  //   }
 }
 .topLinkMiddle {
-  //   padding: 3.125rem calc((100% - 24px) / 2);
   width: 33.33%;
   background-image: url(../images/p-9.avif);
   background-position: center;
@@ -83,14 +76,8 @@
   @media (min-width: 768px) {
     height: 256px;
   }
-  //   @media (min-width: 992px) {
-  //     position: absolute;
-  //     z-index: 1;
-  //     top: -40%;
-  //   }
 }
 .topLinkRight {
-  //   padding: 3.125rem calc((100% - 24px) / 2);
   width: 33.33%;
   background-image: url(../images/p-10.avif);
   background-position: center;
@@ -99,11 +86,6 @@
   @media (min-width: 768px) {
     height: 256px;
   }
-  //   @media (min-width: 992px) {
-  //     position: absolute;
-  //     z-index: 1;
-  //     top: -40%;
-  //   }
 }
 .topLink {
   background-color: rgba(63, 93, 69, 0.8);
@@ -140,5 +122,53 @@
     position: relative;
     z-index: 1;
     top: -89px;
+  }
+}
+
+//choose
+.choose {
+  padding: 0;
+  @media (min-width: 992px) {
+    height: 26.25rem;
+    position: relative;
+    justify-content: space-between;
+  }
+  .backGround {
+    width: 100%;
+    height: 26.25rem;
+    z-index: -1;
+    top: 20px;
+  }
+  .slogan-sm {
+    width: 100%;
+    padding: 1.875rem 5.625rem;
+  }
+  .dessert {
+    height: 15.625rem;
+    background-image: url(../images/p-11.avif);
+    background-position: center;
+    background-size: cover;
+    @media (min-width: 992px) {
+      width: 28.75rem;
+      height: 28.75rem;
+      margin-right: 3.4375rem;
+      margin-left: 2.625rem;
+    }
+  }
+  .poem {
+    padding: 1.875rem;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 1rem;
+    @media (min-width: 992px) {
+      writing-mode: vertical-rl;
+      margin: 4.375rem 0;
+      margin-right: 5rem;
+      padding: 0;
+    }
+  }
+  .slogan-lg {
+    height: 19.196875rem;
+    margin-right: 2.625rem;
   }
 }

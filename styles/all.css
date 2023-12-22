@@ -10203,4 +10203,57 @@ textarea.form-control-lg {
     z-index: 1;
     top: -89px;
   }
+}
+
+.choose {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .choose {
+    height: 26.25rem;
+    position: relative;
+    justify-content: space-between;
+  }
+}
+.choose .backGround {
+  width: 100%;
+  height: 26.25rem;
+  z-index: -1;
+  top: 20px;
+}
+.choose .slogan-sm {
+  width: 100%;
+  padding: 1.875rem 5.625rem;
+}
+.choose .dessert {
+  height: 15.625rem;
+  background-image: url(../images/p-11.avif);
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .choose .dessert {
+    width: 28.75rem;
+    height: 28.75rem;
+    margin-right: 3.4375rem;
+    margin-left: 2.625rem;
+  }
+}
+.choose .poem {
+  padding: 1.875rem;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .choose .poem {
+    writing-mode: vertical-rl;
+    margin: 4.375rem 0;
+    margin-right: 5rem;
+    padding: 0;
+  }
+}
+.choose .slogan-lg {
+  height: 19.196875rem;
+  margin-right: 2.625rem;
 }/*# sourceMappingURL=all.css.map */
