@@ -1,0 +1,35 @@
+//topImg
+.productTopImgContainer {
+  padding: 0;
+  @media (min-width: 992px) {
+    padding: 0 0.625rem;
+  }
+}
+
+.productTopImg {
+  height: 17.3125rem;
+  width: 100%;
+  background-image: url(../images/p-14.avif);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  @media (min-width: 992px) {
+    height: 31rem;
+  }
+}
+
+.productTopImgSlogan {
+  position: absolute;
+  width: 59.41px;
+  height: 218.52px;
+  background-image: url(../images/sm-想吃甜點是不需要理由的.svg);
+  right: 1.875rem;
+  top: 1.875rem;
+  @media (min-width: 992px) {
+    width: 89.1px;
+    height: 327.79px;
+    background-image: url(../images/lg-想吃甜點是不需要理由的.svg);
+    right: 2.5rem;
+    top: 2.5rem;
+  }
+}
