@@ -10785,4 +10785,146 @@ textarea.form-control-lg {
 
 .nextPage {
   background-image: url(../images/arrow_right.png);
+}
+
+.loginMain {
+  padding: 0;
+}
+@media (min-width: 576px) {
+  .loginMain {
+    padding: 0 0.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .loginMain {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .loginPart {
+    margin-bottom: 3.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .loginPart {
+    width: 24.375rem;
+    margin: 0;
+    margin-bottom: 3.75rem;
+  }
+}
+
+.loginTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 3.05;
+  margin-bottom: 0;
+}
+
+.loginBySocialmedia {
+  justify-content: center;
+  padding: 1.875rem;
+}
+
+.socialMediaItem {
+  width: 6.5625rem;
+  height: 3.5rem;
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  display: block;
+}
+
+.byFacebook {
+  background-image: url(../images/ic-facebook-logotype.svg);
+}
+
+.byGoogle {
+  background-image: url(../images/ic-google.svg);
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+}
+
+.byYahoo {
+  background-image: url(../images/ic-yahoo.svg);
+}
+
+.loginInput {
+  background-color: #eaf0ed;
+  margin-top: 1.875rem;
+  margin-bottom: 1rem;
+  margin-right: 1.875rem;
+  margin-left: 1.875rem;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .loginInput {
+    margin-top: 0;
+  }
+}
+.loginInput input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  color: #8da291;
+  font-weight: 300;
+  line-height: 1.25;
+  padding: 0;
+}
+
+.loginIcon {
+  color: #3f5d45;
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.loginRemember {
+  margin-right: 1.875rem;
+  margin-left: 1.875rem;
+  margin-bottom: 1.875rem;
+  font-weight: 600;
+  color: #eaf0ed;
+  display: flex;
+  align-items: center;
+}
+.loginRemember input {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  border: none;
+}
+
+.loginByInfo {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.7;
+}
+
+.loginSocialMedia-lg {
+  height: 21.875rem;
+  width: 24.375rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 1.875rem;
+  position: relative;
+  top: 15px;
+}
+
+.loginSocialMediaTitle-lg {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.socialMediaItem-lg {
+  margin-top: 1rem;
+  width: 20.625rem;
+  background-size: 33%;
 }/*# sourceMappingURL=all.css.map */

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweetaste</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles/all.css" />
   </head>
   <body>
@@ -26,7 +30,7 @@
               />
             </a>
             <h1 class="navbar-brand d-none d-md-block me-0 mb-0">
-              <a href="#"
+              <a href="./index.html"
                 ><img
                   src="../images/logo-all-dark.svg"
                   alt=""
@@ -64,6 +68,87 @@
         </nav>
       </div>
     </header>
+    <main
+      class="loginMain d-flex justify-content-center container position-relative"
+    >
+      <div class="loginPart container-lg p-0 bg-primary">
+        <h2 class="loginTitle text-secondary">會員登入</h2>
+        <div class="loginBySocialmedia bg-secondary d-flex d-lg-none">
+          <a class="socialMediaItem byFacebook"></a>
+          <a class="socialMediaItem byGoogle"></a>
+          <a class="socialMediaItem byYahoo"></a>
+        </div>
+        <div class="loginInput">
+          <span class="material-icons loginIcon"> person </span
+          ><input type="text" placeholder="電子信箱/手機號碼" />
+        </div>
+        <div class="loginInput">
+          <span class="material-icons loginIcon"> vpn_key </span
+          ><input type="text" placeholder="請輸入使用者密碼" />
+        </div>
+        <div class="loginRemember"><input type="checkbox" />記住我</div>
+        <a href="#" class="loginByInfo bg-highlight text-primary">登入帳號</a>
+      </div>
+      <div class="loginSocialMedia-lg d-none d-lg-flex bg-secondary">
+        <h3 class="loginSocialMediaTitle-lg">—— 連結社群帳號 ——</h3>
+        <a href="#" class="socialMediaItem socialMediaItem-lg byFacebook"></a>
+        <a href="#" class="socialMediaItem socialMediaItem-lg byGoogle"></a>
+        <a href="#" class="socialMediaItem socialMediaItem-lg byYahoo"></a>
+      </div>
+    </main>
+    <footer>
+      <section>
+        <div
+          class="container-fluid subscribe bg-primary d-flex align-items-center justify-content-center"
+        >
+          <div class="row subscribePart w-100">
+            <div class="col-md-1"></div>
+            <div class="col col-md-5 d-flex describe">
+              <img src="../images/logo-light.svg" alt="" />
+              <p>訂閱你我的甜蜜郵件</p>
+            </div>
+            <div
+              class="col col-md-5 mailPart d-flex bg-secondary justify-content-between align-items-center p-0"
+            >
+              <img
+                src="../images/mail-24px.png"
+                alt=""
+                class="bg-transparent"
+              />
+              <input
+                type="email"
+                class="email bg-transparent border-0 flex-grow-1"
+                name="e-mail"
+              />
+              <a href="#" class="mailPartEnter bg-highlight">
+                <img src="../images/arrow_forward-24px.png" alt="" />
+              </a>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container-fluid footer bg-secondary d-flex flex-column position-relative"
+        >
+          <div class="footerSlogan d-none d-md-block"></div>
+          <div class="footerLogo"></div>
+          <p class="info text-primary">
+            07-1234-5678 <br />
+            sweetaste@email.com <br />
+            800 高雄市新興區幸福路 520 號
+          </p>
+          <div class="socialMedia d-flex">
+            <a href="#" class="socialMedia1"></a>
+            <a href="#" class="socialMedia2"></a>
+          </div>
+          <p class="copyright text-primary">
+            © 2018 Sweetaste* All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
