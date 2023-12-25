@@ -10343,6 +10343,37 @@ textarea.form-control-lg {
   height: 19.6875rem;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.todaySpecial {
+  position: absolute;
+  writing-mode: vertical-lr;
+  line-height: 2.3625;
+  z-index: 1;
+  padding: 0.625rem 0;
+  margin: 0;
+  left: 1.3125rem;
+}
+@media (min-width: 992px) {
+  .todaySpecial {
+    left: 1.25rem;
+    line-height: 2.25;
+  }
+}
+
+.like {
+  position: absolute;
+  background-image: url(../images/favorite_border.png);
+  width: 20px;
+  height: 18.35px;
+  right: 1.5125rem;
+  top: 1.1875rem;
+}
+@media (min-width: 992px) {
+  .like {
+    right: 1.375rem;
+  }
 }
 
 .todayDessertImg1 {
