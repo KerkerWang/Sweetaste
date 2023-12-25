@@ -339,3 +339,69 @@
     margin: 0;
   }
 }
+
+//footer
+.footer {
+  height: 19.5rem;
+  padding: 0 1.875rem;
+  padding-top: 2.4375rem;
+  @media (min-width: 768px) {
+    height: 21.375rem;
+  }
+}
+
+.footerSlogan {
+  background-image: url(../images/sm-今天是個吃甜點的好日子.svg);
+  width: 59.28px;
+  height: 218.69px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 7.625rem;
+  top: 1.875rem;
+}
+
+.footerLogo {
+  width: 54%;
+  height: 1.6625rem;
+  background-image: url(../images/logotype-sm-dark.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 2.46875rem;
+  @media (min-width: 768px) {
+    margin-bottom: 7.21875rem;
+  }
+}
+
+.info {
+  margin-bottom: 2.3125rem;
+  @media (min-width: 768px) {
+    margin-bottom: 1.875rem;
+  }
+}
+
+.socialMedia {
+  margin-bottom: 1.4375rem;
+  a {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+}
+.socialMedia1 {
+  background-image: url(../images/ic-line@.svg);
+}
+.socialMedia2 {
+  background-image: url(../images/ic-facebook.svg);
+}
+
+.copyright {
+  line-height: 1.1875rem;
+  margin-bottom: 0;
+  @media (min-width: 768px) {
+    position: absolute;
+    bottom: 1.875rem;
+    right: 7.625rem;
+  }
+}
