@@ -10058,6 +10058,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+  header {
+    padding: 17px 0;
+  }
+}
+
 .headerContainer {
   padding-right: 1.875rem;
   padding-left: 1.875rem;
@@ -10066,6 +10072,15 @@ textarea.form-control-lg {
   .headerContainer {
     padding-right: 0.875rem;
     padding-left: 0.875rem;
+  }
+}
+
+.headerNav {
+  margin: 13.425px 0;
+}
+@media (min-width: 768px) {
+  .headerNav {
+    margin: 0;
   }
 }
 

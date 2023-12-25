@@ -1,10 +1,22 @@
 // header
+header {
+  @media (min-width: 768px) {
+    padding: 17px 0;
+  }
+}
 .headerContainer {
   padding-right: 1.875rem;
   padding-left: 1.875rem;
   @media (min-width: 768px) {
     padding-right: 0.875rem;
     padding-left: 0.875rem;
+  }
+}
+
+.headerNav {
+  margin: 13.425px 0;
+  @media (min-width: 768px) {
+    margin: 0;
   }
 }
 
