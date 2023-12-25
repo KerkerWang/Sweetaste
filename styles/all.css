@@ -10064,8 +10064,8 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .headerContainer {
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
+    padding-right: 0.875rem;
+    padding-left: 0.875rem;
   }
 }
 
@@ -10354,6 +10354,7 @@ textarea.form-control-lg {
   padding: 0.625rem 0;
   margin: 0;
   left: 1.3125rem;
+  font-weight: 600;
 }
 @media (min-width: 992px) {
   .todaySpecial {
@@ -10557,7 +10558,8 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .productTopImgContainer {
-    padding: 0 0.625rem;
+    padding: 0 0.875rem;
+    margin-bottom: 3.75rem;
   }
 }
 
@@ -10591,4 +10593,196 @@ textarea.form-control-lg {
     right: 2.5rem;
     top: 2.5rem;
   }
+}
+
+.productContent {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .productContent {
+    display: flex;
+    padding: 0 0.875rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .dessertCategory {
+    width: 300px;
+    margin-right: 1.25rem;
+  }
+}
+
+.chooseListName {
+  font-size: 1.5rem;
+  line-height: 2.7;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.chooseListItem {
+  font-size: 1.5rem;
+  line-height: 2.7;
+  text-align: center;
+  display: block;
+  background-color: white;
+  border: 1px solid #eaf0ed;
+}
+.chooseListItem:hover {
+  background-color: #eaf0ed;
+}
+
+@media (min-width: 992px) {
+  .productDessert {
+    width: 65.96%;
+  }
+}
+
+.productDessertListItem {
+  width: 19.6875rem;
+  margin: 0 auto;
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 992px) {
+  .productDessertListItem {
+    width: 18.75rem;
+  }
+}
+
+.productDessertItemImg {
+  width: 19.6875rem;
+  height: 19.6875rem;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .productDessertItemImg {
+    width: 18.75rem;
+  }
+}
+
+.productTodaySpecial {
+  position: absolute;
+  writing-mode: vertical-lr;
+  font-weight: 600;
+  line-height: 2.25;
+  text-align: center;
+  padding: 0.625rem 0;
+  left: 21px;
+}
+@media (min-width: 992px) {
+  .productTodaySpecial {
+    left: 20px;
+  }
+}
+
+.productLike {
+  position: absolute;
+  width: 20px;
+  height: 18.35px;
+  background-image: url(../images/favorite_border.png);
+  top: 19px;
+  right: 24.2px;
+}
+@media (min-width: 992px) {
+  .productLike {
+    right: 22px;
+  }
+}
+
+.productDessertItemImg1 {
+  background-image: url(../images/p-1.png);
+}
+
+.productDessertItemImg2 {
+  background-image: url(../images/p-2.png);
+}
+
+.productDessertItemImg3 {
+  background-image: url(../images/p-3.png);
+}
+
+.productDessertItemImg4 {
+  background-image: url(../images/p-4.png);
+}
+
+.productDessertItemImg5 {
+  background-image: url(../images/p-5.png);
+}
+
+.productDessertItemImg6 {
+  background-image: url(../images/p-6.png);
+}
+
+.productDessertItemTitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2.8;
+  border: 1px solid #eaf0ed;
+  width: 50%;
+  text-align: center;
+}
+
+.productDessertItemPrice {
+  width: 50%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2.8;
+  border: 1px solid #eaf0ed;
+  text-align: center;
+}
+
+.productAddToCart {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.7;
+  display: block;
+  text-align: center;
+}
+
+.productPages {
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 992px) {
+  .productPages {
+    padding: 0 0.875rem;
+    margin-bottom: 3.75rem;
+  }
+}
+
+.productpageList {
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .productpageList {
+    justify-content: flex-end;
+  }
+}
+
+.productPage {
+  display: block;
+  width: 3.75rem;
+  height: 3.75rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #eaf0ed;
+  text-align: center;
+  color: #3f5d45;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 3;
+}
+
+.numberPage:hover {
+  color: #eaf0ed;
+  background-color: #3f5d45;
+}
+
+.lastPage {
+  background-image: url(../images/arrow_left.png);
+}
+
+.nextPage {
+  background-image: url(../images/arrow_right.png);
 }/*# sourceMappingURL=all.css.map */
