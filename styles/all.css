@@ -10947,6 +10947,19 @@ textarea.form-control-lg {
 .cartContent {
   padding: 0;
 }
+@media (min-width: 992px) {
+  .cartContent {
+    display: flex;
+    margin-top: 1.875rem;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 992px) {
+  .yourCart {
+    width: 66%;
+  }
+}
 
 .cartTitle {
   font-size: 1.5rem;
@@ -11013,7 +11026,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .cartListItemDetail {
-    width: 50%;
+    width: 45%;
     flex-direction: row;
   }
 }
@@ -11094,4 +11107,95 @@ textarea.form-control-lg {
   .cartListItemTotal {
     margin: 0;
   }
+}
+
+.orderSummary {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .orderSummary {
+    width: 32%;
+    background-color: #3f5d45;
+  }
+}
+
+.orderSummayTitle {
+  background-color: #eaf0ed;
+  color: #3f5d45;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.7;
+  text-align: center;
+  margin: 0 1.875rem;
+  margin-top: 0.71875rem;
+}
+@media (min-width: 992px) {
+  .orderSummayTitle {
+    margin-top: 0;
+    background-color: transparent;
+    color: #eaf0ed;
+    border-bottom: 1px solid #eaf0ed;
+  }
+}
+
+.orderSummarySubtotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.875rem;
+  margin-top: 1rem;
+}
+.orderSummarySubtotal p {
+  color: #3f5d45;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .orderSummarySubtotal p {
+    color: #eaf0ed;
+  }
+}
+
+.orderSummaryShipment {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.875rem;
+  margin-top: 1rem;
+}
+.orderSummaryShipment p {
+  color: #3f5d45;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .orderSummaryShipment p {
+    color: #eaf0ed;
+  }
+}
+
+.orderSummaryTotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.875rem;
+  margin-top: 1rem;
+}
+.orderSummaryTotal p {
+  color: #3f5d45;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+@media (min-width: 992px) {
+  .orderSummaryTotal p {
+    color: #eaf0ed;
+  }
+}
+
+.orderSummaryCheckout {
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.7;
 }/*# sourceMappingURL=all.css.map */
