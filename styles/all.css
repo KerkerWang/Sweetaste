@@ -10952,6 +10952,7 @@ textarea.form-control-lg {
     display: flex;
     margin-top: 1.875rem;
     align-items: flex-start;
+    margin-bottom: 2.5rem;
   }
 }
 
