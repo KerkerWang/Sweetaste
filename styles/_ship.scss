@@ -1,4 +1,16 @@
-//shipContent
+//shipMain
+main {
+  @media (min-width: 992px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.shipMain {
+  @media (min-width: 992px) {
+    width: 45%;
+    margin-right: 1.25rem;
+  }
+}
 .shipContent {
   padding: 0;
 }
@@ -131,4 +143,100 @@
   font-size: 1.5rem;
   text-align: center;
   line-height: 2.7;
+}
+
+//orderDetail
+.orderDetail {
+  width: 29.5%;
+  margin-bottom: 3.75rem;
+}
+.orderDetailSummary {
+  border: 1px solid rgba(234, 240, 237, 1);
+  margin-bottom: 1.25rem;
+}
+.orderDetailSummaryTitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.7;
+  margin-bottom: 0;
+}
+.orderDetailSummarySubtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  p {
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+}
+.orderDetailSummaryShipment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  p {
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+}
+.orderDetailSummaryTotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.25rem;
+  p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+}
+.orderDetailListContent {
+  border: 1px solid rgba(234, 240, 237, 1);
+}
+.orderDetailListTitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.7;
+  margin-bottom: 0;
+}
+.orderDetailList {
+  padding-left: 1.25rem;
+  padding-right: 1.125rem;
+  padding-top: 1rem;
+}
+.orderDetailListItem {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderDetailListItemImg {
+  width: 46.5%;
+  height: 5rem;
+  background-position: center;
+  background-size: cover;
+}
+.orderDetailListItemImg1 {
+  background-image: url(../images/p-16.avif);
+}
+.orderDetailListItemImg2 {
+  background-image: url(../images/p-5.png);
+}
+.orderDetailListItemImg3 {
+  background-image: url(../images/p-3.png);
+}
+.orderDetailListItemDetail {
+  width: 46.5%;
+}
+.orderDetailListItemName {
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 1.25;
+}
+.orderDetailListItemPrice {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
 }
