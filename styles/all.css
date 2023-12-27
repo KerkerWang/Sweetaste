@@ -11606,4 +11606,73 @@ textarea.form-control-lg {
 
 .shipAddress2 {
   margin-bottom: 1rem;
+}
+
+main {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .checkOutSuccessBgOutside {
+    padding: 0 2.625rem;
+  }
+}
+
+.checkOutSuccessBg {
+  height: 32.375rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/p-15.avif);
+}
+@media (min-width: 576px) {
+  .checkOutSuccessBg {
+    height: 28.75rem;
+    margin-bottom: 3.75rem;
+  }
+}
+
+.checkOutSuccessSlogan {
+  padding-top: 13.125rem;
+}
+@media (min-width: 576px) {
+  .checkOutSuccessSlogan {
+    padding-top: 8.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.shipProcess {
+  width: 189.36px;
+  margin: 0 auto;
+}
+
+.iconFromGoogle {
+  color: #3f5d45;
+  font-size: 1.25rem;
+}
+
+.checkOutSuccessTitle {
+  margin: 0 auto;
+  margin-top: 1.95rem;
+  width: 189.36px;
+  height: 45.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/lg-付款成功.svg);
+}
+
+.keepBuying {
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.7;
+}
+@media (min-width: 576px) {
+  .keepBuying {
+    margin-top: 3.20875rem;
+    width: 18.75rem;
+  }
 }/*# sourceMappingURL=all.css.map */
