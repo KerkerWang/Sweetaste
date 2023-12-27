@@ -1,0 +1,134 @@
+//shipContent
+.shipContent {
+  padding: 0;
+}
+.shipTitle {
+  display: flex;
+  padding: 1.875rem;
+  h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+  }
+}
+.shipProcess {
+}
+.shipName {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.875rem;
+  padding-top: 0;
+  justify-content: space-between;
+}
+.shipLastName {
+  width: 48.5%;
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 1.0625rem 1.25rem;
+    width: 100%;
+  }
+}
+.shipFirstName {
+  width: 48.5%;
+  margin-bottom: 1rem;
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 1.0625rem 1.25rem;
+    width: 100%;
+  }
+}
+.shipPhone {
+  width: 100%;
+  margin-bottom: 1rem;
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 1.0625rem 1.25rem;
+    width: 100%;
+  }
+}
+.shipAddressTitle {
+  display: block;
+  width: 98%;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.shipAddress1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.shipAddressCounty {
+  display: flex;
+  width: 48.5%;
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    width: 100%;
+    padding: 1.0625rem 1.25rem;
+  }
+}
+.shipAddressDistrict {
+  display: flex;
+  width: 48.5%;
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    width: 100%;
+    padding: 1.0625rem 1.25rem;
+  }
+}
+.shipIcon {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(234, 240, 237, 1);
+  color: rgba(63, 93, 69, 1);
+  padding-right: 1.125rem;
+  justify-content: center;
+  position: relative;
+}
+.iconUp {
+  position: relative;
+  top: 8px;
+}
+.iconDown {
+  position: relative;
+  bottom: 8px;
+}
+.shipAddress2 {
+  width: 100%;
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 1.0625rem 1.25rem;
+    width: 100%;
+  }
+}
+.nextStep {
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.7;
+}
