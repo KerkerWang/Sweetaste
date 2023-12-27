@@ -1,0 +1,22 @@
+.lastThreeNumber {
+  width: 48.5%;
+  margin-bottom: 1rem;
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    font-weight: 300;
+    line-height: 1.25;
+    padding: 1.0625rem 1.25rem;
+    width: 100%;
+  }
+}
+.paymentMain {
+  margin-bottom: 3.75rem;
+}
+.paymentDetail {
+  margin-bottom: 0;
+}

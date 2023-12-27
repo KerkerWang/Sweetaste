@@ -73,51 +73,66 @@
       </div>
     </header>
     <main>
-      <div class="shipMain">
+      <div class="shipMain paymentMain">
         <div class="shipContent container bg-primary">
           <div class="shipTitle">
-            <h2 class="text-secondary">運送</h2>
+            <h2 class="text-secondary">付款</h2>
             <div class="shipProcess">
+              <span class="material-icons"> check_circle </span>
               <span class="material-icons"> radio_button_checked </span>
-              <span class="material-icons"> radio_button_unchecked </span>
               <span class="material-icons"> radio_button_unchecked </span>
             </div>
           </div>
           <div class="shipName">
-            <div class="shipLastName">
-              <label for="lastName" class="text-secondary">姓氏</label>
-              <input
-                type="text"
-                id="lastName"
-                placeholder="王"
-                class="bg-secondary border-0"
-              />
-            </div>
-            <div class="shipFirstName">
-              <label for="firstName" class="text-secondary">名字</label>
-              <input
-                type="text"
-                id="firstName"
-                placeholder="小明"
-                class="bg-secondary border-0"
-              />
-            </div>
             <div class="shipPhone">
-              <label for="phoneNumber " class="text-secondary">電話</label>
+              <label for="phoneNumber " class="text-secondary"
+                >信用卡卡號</label
+              >
               <input
                 type="text"
                 id="phoneNumber"
-                placeholder="0912-345-678"
+                placeholder="9012-3456-7890-1234"
                 class="bg-secondary border-0"
               />
             </div>
-            <label for="" class="shipAddressTitle text-secondary">地址</label>
+            <label for="" class="shipAddressTitle text-secondary"
+              >持卡人姓名</label
+            >
             <div class="shipAddress1">
               <div class="shipAddressCounty">
                 <input
                   type="text"
                   class="bg-secondary border-0"
-                  placeholder="高雄市"
+                  placeholder="王"
+                />
+                <!-- <div class="shipIcon">
+                  <span class="iconUp material-icons"> arrow_drop_up </span>
+                  <span class="iconDown material-icons"> arrow_drop_down </span>
+                </div> -->
+              </div>
+              <div class="shipAddressDistrict">
+                <input
+                  type="text"
+                  class="bg-secondary border-0"
+                  placeholder="小明"
+                />
+                <!-- <div class="shipIcon">
+                  <span class="iconUp material-icons"> arrow_drop_up </span
+                  ><span class="iconDown material-icons">
+                    arrow_drop_down
+                  </span>
+                </div> -->
+              </div>
+            </div>
+            <label for="" class="shipAddressTitle text-secondary"
+              >有效期限</label
+            >
+            <div class="shipAddress1">
+              <div class="shipAddressCounty">
+                <input
+                  type="text"
+                  class="bg-secondary border-0"
+                  placeholder="月"
                 />
                 <div class="shipIcon">
                   <span class="iconUp material-icons"> arrow_drop_up </span>
@@ -128,7 +143,7 @@
                 <input
                   type="text"
                   class="bg-secondary border-0"
-                  placeholder="新興區"
+                  placeholder="年"
                 />
                 <div class="shipIcon">
                   <span class="iconUp material-icons"> arrow_drop_up </span
@@ -138,11 +153,15 @@
                 </div>
               </div>
             </div>
-            <div class="shipAddress2">
+            <div class="lastThreeNumber">
+              <label for="lastThreeNumber " class="text-secondary"
+                >背面末三碼</label
+              >
               <input
                 type="text"
+                id="lastThreeNumber"
+                placeholder="123"
                 class="bg-secondary border-0"
-                placeholder="幸福路 520 號"
               />
             </div>
           </div>
@@ -153,7 +172,7 @@
           >下一步</a
         >
       </div>
-      <div class="orderDetail d-none d-lg-block">
+      <div class="orderDetail paymentDetail d-none d-lg-block">
         <div class="orderDetailSummary">
           <h3 class="orderDetailSummaryTitle bg-secondary">訂單摘要</h3>
           <div class="orderDetailSummarySubtotal">
