@@ -17,13 +17,45 @@ main {
 .shipTitle {
   display: flex;
   padding: 1.875rem;
+  justify-content: space-between;
   h2 {
     font-weight: 600;
     font-size: 2.25rem;
+    width: 48.5%;
   }
 }
 .shipProcess {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 48.5%;
+  justify-content: space-between;
 }
+.iconFromGoogle {
+  font-size: 16.45px;
+}
+.iconLeft {
+  color: white;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15.45px;
+    background: #8da291;
+    width: calc((100% - 45.35px) / 2);
+    height: 1px;
+  }
+}
+.iconMiddle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15.45px;
+  background: #8da291;
+  width: calc((100% - 45.35px) / 2);
+  height: 1px;
+}
+
 .shipName {
   display: flex;
   flex-wrap: wrap;

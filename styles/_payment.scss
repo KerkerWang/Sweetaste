@@ -15,8 +15,19 @@
   }
 }
 .paymentMain {
-  margin-bottom: 3.75rem;
+  @media (min-width: 992) {
+    margin-bottom: 3.75rem;
+  }
 }
 .paymentDetail {
   margin-bottom: 0;
+}
+.iconLeft {
+  &::before {
+    content: "";
+    background: #fff;
+  }
+}
+.iconMiddle {
+  color: #fff;
 }
