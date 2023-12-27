@@ -11585,6 +11585,9 @@ textarea.form-control-lg {
   background-color: #eaf0ed;
   width: 50%;
 }
+.invoiceNow:hover {
+  color: #3f5d45;
+}
 
 .invoiceAnother {
   display: block;
@@ -11592,7 +11595,15 @@ textarea.form-control-lg {
   background-color: #3f5d45;
   width: 50%;
 }
+.invoiceAnother:hover {
+  color: #3f5d45;
+  background-color: #eaf0ed;
+}
 
 .shipName {
   padding-bottom: 0.875rem;
+}
+
+.shipAddress2 {
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=all.css.map */
