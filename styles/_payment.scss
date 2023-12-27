@@ -31,3 +31,17 @@
 .iconMiddle {
   color: #fff;
 }
+.credictCardInput {
+  display: flex;
+  align-items: center;
+  background-color: #eaf0ed;
+  padding-right: 1.375rem;
+
+  input {
+    color: #3f5d45;
+  }
+}
+.paymentIcon {
+  color: #3f5d45;
+  background-color: #eaf0ed;
+}
