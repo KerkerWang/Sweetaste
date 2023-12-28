@@ -15,20 +15,20 @@
   }
 }
 .paymentMain {
-  @media (min-width: 992) {
+  @media (min-width: 992px) {
     margin-bottom: 3.75rem;
   }
 }
 .paymentDetail {
   margin-bottom: 0;
 }
-.iconLeft {
+.iconLeftInPayment {
   &::before {
     content: "";
     background: #fff;
   }
 }
-.iconMiddle {
+.iconMiddleInPayment {
   color: #fff;
 }
 .credictCardInput {

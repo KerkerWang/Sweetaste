@@ -29,9 +29,27 @@ main {
   width: 189.36px;
   margin: 0 auto;
 }
-.iconFromGoogle {
+.iconFromGoogleInCheckOutSuccess {
   color: #3f5d45;
   font-size: 1.25rem;
+}
+.iconLeftInCheckOutSuccess::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  background: #3f5d45;
+  width: calc((100% - 52px) / 2);
+  height: 1px;
+}
+.iconMiddleInCheckOutSuccess::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  background: #3f5d45;
+  width: calc((100% - 52px) / 2);
+  height: 1px;
 }
 .checkOutSuccessTitle {
   margin: 0 auto;

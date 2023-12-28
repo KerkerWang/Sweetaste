@@ -1,5 +1,5 @@
 //shipMain
-main {
+.shipMainContainer {
   @media (min-width: 992px) {
     display: flex;
     justify-content: center;
@@ -31,10 +31,10 @@ main {
   width: 48.5%;
   justify-content: space-between;
 }
-.iconFromGoogle {
+.iconFromGoogleInShip {
   font-size: 16.45px;
 }
-.iconLeft {
+.iconLeftInShip {
   color: white;
   &::before {
     content: "";
@@ -46,7 +46,7 @@ main {
     height: 1px;
   }
 }
-.iconMiddle::after {
+.iconMiddleInShip::after {
   content: "";
   position: absolute;
   top: 50%;

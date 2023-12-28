@@ -11202,7 +11202,7 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 992px) {
-  main {
+  .shipMainContainer {
     display: flex;
     justify-content: center;
   }
@@ -11238,14 +11238,14 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 
-.iconFromGoogle {
+.iconFromGoogleInShip {
   font-size: 16.45px;
 }
 
-.iconLeft {
+.iconLeftInShip {
   color: white;
 }
-.iconLeft::before {
+.iconLeftInShip::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -11255,7 +11255,7 @@ textarea.form-control-lg {
   height: 1px;
 }
 
-.iconMiddle::after {
+.iconMiddleInShip::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -11526,7 +11526,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   .paymentMain {
     margin-bottom: 3.75rem;
   }
@@ -11536,12 +11536,12 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
-.iconLeft::before {
+.iconLeftInPayment::before {
   content: "";
   background: #fff;
 }
 
-.iconMiddle {
+.iconMiddleInPayment {
   color: #fff;
 }
 
@@ -11560,7 +11560,7 @@ textarea.form-control-lg {
   background-color: #eaf0ed;
 }
 
-.iconMiddle::after {
+.iconMiddleInEInvoice::after {
   background: #fff;
 }
 
@@ -11648,9 +11648,29 @@ main {
   margin: 0 auto;
 }
 
-.iconFromGoogle {
+.iconFromGoogleInCheckOutSuccess {
   color: #3f5d45;
   font-size: 1.25rem;
+}
+
+.iconLeftInCheckOutSuccess::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  background: #3f5d45;
+  width: calc((100% - 52px) / 2);
+  height: 1px;
+}
+
+.iconMiddleInCheckOutSuccess::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  background: #3f5d45;
+  width: calc((100% - 52px) / 2);
+  height: 1px;
 }
 
 .checkOutSuccessTitle {
